@@ -113,4 +113,10 @@ a:active {
 	#heading {
 		height: 185px;
 	}
+	.personals {
+	margin-left: 5%;
+	}
+	.mainContent {
+	margin-right: 3.3%;
+}
 	}
