@@ -66,7 +66,10 @@ footer {
 	clear: both;
 	width: 100%;
 	background-color: #2251b2;
-	align-content: center;
+	border-top: solid;
+	margin:auto;
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
 	}
 
 .inlist {
@@ -100,6 +103,10 @@ a:active {
 	color: red;
 	text-decoration: underline;
 }
+
+#alignright {
+	float: right;
+}
 @media only screen and (max-width: 700px) {
 	body {
 		margin-top: 0px;
@@ -120,3 +127,9 @@ a:active {
 	margin-right: 3.3%;
 }
 	}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+	main {
+		width: 85%;
+	}
+}
